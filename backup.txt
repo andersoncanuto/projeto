@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+
+body* {
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+#container {
+  width: 360px;
+  border: 1px solid red;
+  margin: auto;
+
+  padding-top: 56px;
+}
+
+#profile {
+  text-align: center;
+  padding: 24px;
+}
+
+#profile img {
+  width: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin: top 8px;
+}
+
+/*links*/
+ul {
+  list-style: none;
+}
+
+ul li {
+  border: 1px solid red;
+}
+
+
+
+
+
+====================================== INDEX===============================
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wgth@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevLinks</title>
+    <link rel="Stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img
+          src="./assets/Avatar.png"
+          alt="Foto de Mayk Brito sorrindo, usando óculos e camisa preta, barba e fundo amarelo."
+        />
+        <p>@maykbrito</p>
+      </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+      <div id="social-links">
+        <a href="https://github.com/maykbrito" target="_blank" class="button">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
